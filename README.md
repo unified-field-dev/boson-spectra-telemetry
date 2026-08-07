@@ -28,6 +28,10 @@ Hosts call the install helpers; lifecycle emission lives in Boson (`boson-runtim
 - Generated `*Recorder` / `*Logger` / topic helpers
 - `sink_forward` onto typed Spectra recorders
 
+## Examples
+
+Runnable smoke: [examples/README.md](examples/README.md).
+
 ## Verify
 
 ```bash
