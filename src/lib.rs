@@ -79,6 +79,8 @@
 //! // through Spectra automatically.
 //! ```
 //!
+//! Runnable: `cargo run -p boson-spectra-telemetry --example ops_log_smoke`.
+//!
 //! ## Where to look next
 //!
 //! - [`install_ops_log_from_env`] / [`SpectraOpsLog`] — process-wide `OpsLog` bootstrap
