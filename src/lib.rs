@@ -14,10 +14,10 @@
 //!
 //! ## Features
 //!
-//! - **Env-driven install** — Reads `BOSON_TELEMETRY` at host boot and installs the matching
+//! - **Env-resolved telemetry install** — Reads `BOSON_TELEMETRY` at host boot and installs the matching
 //!   process-wide `OpsLog` before the Boson runtime starts.
 //!   [Get started](#env-driven-install)
-//! - **OpsLog install** — [`SpectraOpsLog`] implements [`boson_telemetry::OpsLog`] when you wire
+//! - **Spectra OpsLog adapter** — [`SpectraOpsLog`] implements [`boson_telemetry::OpsLog`] when you wire
 //!   the Spectra adapter yourself instead of using the env helper.
 //!   [Get started](#direct-ops-log)
 //! - **Consumer-side forwarding** — [`sink_forward`] re-dispatches raw metric and event emits
