@@ -58,7 +58,7 @@ dependencies = [
 [[package]]
 name = "boson-telemetry"
 version = "0.1.4"
-source = "git+https://github.com/unified-field-dev/boson?branch=main#d1d3bc86955c7bcb3a64080b62c3e780ec1054ef"
+source = "git+https://github.com/unified-field-dev/boson?branch=main#316d2c2e150fc3edaee721c90db0ffc5284a88b2"
 dependencies = [
  "serde_json",
 ]
@@ -480,7 +480,7 @@ checksum = "8ed6a63f02c8539c91a8685a86f4099661ba3da017932f6ebbea6de3f0fa7c90"
 [[package]]
 name = "spectra-macros"
 version = "0.1.3"
-source = "git+https://github.com/unified-field-dev/Spectra?branch=main#31fac51112b85d36b9f4ef3ede9ed63578535cfb"
+source = "git+https://github.com/unified-field-dev/Spectra?branch=main#e314440c28e57f499cbd57b0b176e27a20f44284"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -490,7 +490,7 @@ dependencies = [
 [[package]]
 name = "spectra-runtime"
 version = "0.1.3"
-source = "git+https://github.com/unified-field-dev/Spectra?branch=main#31fac51112b85d36b9f4ef3ede9ed63578535cfb"
+source = "git+https://github.com/unified-field-dev/Spectra?branch=main#e314440c28e57f499cbd57b0b176e27a20f44284"
 dependencies = [
  "chrono",
  "serde_json",
@@ -646,7 +646,7 @@ dependencies = [
 [[package]]
 name = "uf-spectra"
 version = "0.1.3"
-source = "git+https://github.com/unified-field-dev/Spectra?branch=main#31fac51112b85d36b9f4ef3ede9ed63578535cfb"
+source = "git+https://github.com/unified-field-dev/Spectra?branch=main#e314440c28e57f499cbd57b0b176e27a20f44284"
 dependencies = [
  "chrono",
  "serde",
@@ -659,7 +659,7 @@ dependencies = [
 [[package]]
 name = "uf-spectra-core"
 version = "0.1.3"
-source = "git+https://github.com/unified-field-dev/Spectra?branch=main#31fac51112b85d36b9f4ef3ede9ed63578535cfb"
+source = "git+https://github.com/unified-field-dev/Spectra?branch=main#e314440c28e57f499cbd57b0b176e27a20f44284"
 dependencies = [
  "async-trait",
  "chrono",
