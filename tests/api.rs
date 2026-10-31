@@ -115,7 +115,7 @@ fn topic_constants_are_non_empty_happy() {
         BOSON_TASK_DURATION_MS_TOPIC,
         BOSON_REMOTE_ERRORS_TOPIC,
     ] {
-        assert!(!topic.is_empty());
+        assert_ne!(topic, "");
         assert!(
             topic.starts_with("spectra.metric."),
             "unexpected metric topic: {topic}"
@@ -127,7 +127,7 @@ fn topic_constants_are_non_empty_happy() {
         BOSON_HANDLER_ERROR_TOPIC,
         BOSON_RUNTIME_LOG_TOPIC,
     ] {
-        assert!(!topic.is_empty());
+        assert_ne!(topic, "");
         assert!(
             topic.starts_with("spectra.event."),
             "unexpected event topic: {topic}"
